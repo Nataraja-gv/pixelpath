@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #F5F7FA;
+  --color-ink: #101B33;
+  --color-mute: #56627A;
+  --color-line: #DCE2EC;
+  --color-cobalt: #2F5BEA;
+  --color-rose: #E4447B;
+  --color-amber: #F0A030;
+  --color-teal: #0F9D86;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --container-page: 72rem;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-paper font-body text-ink antialiased; }
+  h1, h2, h3, h4 { @apply font-display tracking-tight; }
+  :focus-visible { outline: 3px solid #2F5BEA; outline-offset: 2px; border-radius: 4px; }
+}
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-page px-5 sm:px-8; }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-5 py-3 text-sm font-semibold text-white shadow-[3px_3px_0_0_#2F5BEA] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#2F5BEA];
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ink/25 px-5 py-3 text-sm font-semibold text-ink transition-colors hover:border-ink hover:bg-white;
+  }
+  .btn-light {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-semibold text-ink shadow-[3px_3px_0_0_#F0A030] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_#F0A030];
+  }
+  .field {
+    @apply w-full rounded-lg border border-line bg-white px-4 py-3 text-base text-ink transition-shadow placeholder:text-mute/70 focus:shadow-[0_0_0_4px_rgba(47,91,234,0.15)];
+  }
+  .field-error { @apply border-rose; }
+  
+}
+
+/* Infinite strip of topics on the home page */
+.marquee { animation: marquee 45s linear infinite; }
+.marquee:hover { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* Loading skeleton shimmer */
+.skeleton {
+  background: linear-gradient(100deg, #E6EBF3 30%, #F3F6FA 50%, #E6EBF3 70%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+/* Slow clock hand in the "reviews" bento tile */
+.spin-slow { animation: spin-slow 8s linear infinite; transform-origin: 50% 50%; }
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee, .skeleton, .spin-slow { animation: none; }
+}

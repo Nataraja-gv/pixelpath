@@ -1,0 +1,321 @@
+[
+  {
+    "slug": "interview-mastery-for-tech-roles",
+    "title": "Interview Mastery for Tech Roles",
+    "category": "Career",
+    "level": "Beginner",
+    "duration_weeks": 3,
+    "price": 3499,
+    "instructor": "Rohit Verma",
+    "rating": 4.9,
+    "learners": 3120,
+    "summary": "Prepare for resume screens, technical rounds and HR conversations.",
+    "description": "Short and focused. You will rewrite your resume, practise with mock interviews, and get specific feedback on how you answer.",
+    "outcomes": [
+      "Rewrite your resume for the roles you want",
+      "Explain projects clearly in under two minutes",
+      "Handle technical and behavioural questions",
+      "Negotiate an offer with confidence"
+    ],
+    "syllabus": [
+      "Resume and LinkedIn rewrite",
+      "Explaining your projects",
+      "Technical round practice",
+      "Behavioural questions",
+      "Offers and negotiation"
+    ]
+  },
+  {
+    "slug": "ui-ux-design-foundations",
+    "title": "UI/UX Design Foundations",
+    "category": "Design",
+    "level": "Beginner",
+    "duration_weeks": 8,
+    "price": 8999,
+    "instructor": "Sneha Kulkarni",
+    "rating": 4.9,
+    "learners": 2780,
+    "summary": "Learn research, wireframing and visual design by redesigning a real product.",
+    "description": "You will interview users, map their problems, and deliver a tested prototype. The course ends with a portfolio case study you can send to employers.",
+    "outcomes": [
+      "Plan and run short user interviews",
+      "Turn findings into wireframes and flows",
+      "Apply layout, colour and type with intent",
+      "Test a prototype and write up a case study"
+    ],
+    "syllabus": [
+      "What designers actually do",
+      "User research",
+      "Flows and wireframes",
+      "Visual design basics",
+      "Prototyping and usability tests",
+      "Portfolio case study"
+    ]
+  },
+  {
+    "slug": "python-for-data-analysis",
+    "title": "Python for Data Analysis",
+    "category": "Technology",
+    "level": "Beginner",
+    "duration_weeks": 8,
+    "price": 9999,
+    "instructor": "Karthik Menon",
+    "rating": 4.7,
+    "learners": 2310,
+    "summary": "Clean, explore and visualise real datasets with Python, pandas and Matplotlib.",
+    "description": "Start with zero Python and finish by presenting findings from a dataset you chose yourself. Every week uses data from Indian public sources, not toy examples.",
+    "outcomes": [
+      "Write readable Python for everyday analysis tasks",
+      "Clean messy data with pandas",
+      "Create charts that answer a clear question",
+      "Present findings in a short written report"
+    ],
+    "syllabus": [
+      "Python basics and notebooks",
+      "Working with tables in pandas",
+      "Cleaning and reshaping data",
+      "Exploratory analysis",
+      "Visualisation with Matplotlib",
+      "Reporting your findings"
+    ]
+  },
+  {
+    "slug": "digital-marketing-essentials",
+    "title": "Digital Marketing Essentials",
+    "category": "Business",
+    "level": "Beginner",
+    "duration_weeks": 6,
+    "price": 6999,
+    "instructor": "Farah Khan",
+    "rating": 4.6,
+    "learners": 1950,
+    "summary": "Plan and measure campaigns across search, social and email.",
+    "description": "Learn how a small team gets its first thousand customers. You will run a live campaign with a small budget and report on the results.",
+    "outcomes": [
+      "Build a simple funnel and campaign plan",
+      "Write ads and landing page copy that converts",
+      "Set up analytics and read the numbers",
+      "Run a small paid campaign and report on it"
+    ],
+    "syllabus": [
+      "Audience and positioning",
+      "Search and content",
+      "Social and email",
+      "Paid campaigns",
+      "Analytics and reporting",
+      "Your live campaign"
+    ]
+  },
+  {
+    "slug": "full-stack-web-development",
+    "title": "Full-Stack Web Development with React & Node",
+    "category": "Technology",
+    "level": "Intermediate",
+    "duration_weeks": 12,
+    "price": 14999,
+    "instructor": "Ananya Rao",
+    "rating": 4.8,
+    "learners": 1840,
+    "summary": "Build and deploy three complete web apps with React, Node and PostgreSQL.",
+    "description": "You will move from components to databases to deployment, shipping a real project every four weeks. Code reviews on every submission keep your habits honest.",
+    "outcomes": [
+      "Structure a React app with routing, state and data fetching",
+      "Design REST APIs with Node and Express",
+      "Model data in PostgreSQL and secure it with authentication",
+      "Deploy a production app with CI and environment config"
+    ],
+    "syllabus": [
+      "Modern JavaScript and tooling",
+      "React components, hooks and routing",
+      "Node, Express and REST design",
+      "Databases, auth and security",
+      "Testing and code review",
+      "Deployment and your capstone"
+    ]
+  },
+  {
+    "slug": "professional-writing-and-communication",
+    "title": "Professional Writing & Communication",
+    "category": "Career",
+    "level": "Beginner",
+    "duration_weeks": 4,
+    "price": 3999,
+    "instructor": "Farah Khan",
+    "rating": 4.7,
+    "learners": 1670,
+    "summary": "Write emails, updates and documents that people actually read.",
+    "description": "Clear writing is the cheapest career upgrade there is. Weekly exercises use your own workplace messages, with edits from your instructor.",
+    "outcomes": [
+      "Write short emails that get replies",
+      "Structure updates and proposals",
+      "Give and receive feedback calmly",
+      "Present your ideas in meetings"
+    ],
+    "syllabus": [
+      "Writing for busy readers",
+      "Emails and messages",
+      "Updates and proposals",
+      "Feedback conversations",
+      "Speaking up in meetings"
+    ]
+  },
+  {
+    "slug": "sql-and-databases",
+    "title": "SQL & Databases for Developers",
+    "category": "Technology",
+    "level": "Beginner",
+    "duration_weeks": 5,
+    "price": 5999,
+    "instructor": "Meera Iyer",
+    "rating": 4.7,
+    "learners": 1420,
+    "summary": "Write confident SQL queries and design clean database schemas.",
+    "description": "Learn to ask precise questions of data and to structure tables that stay maintainable. Practice runs on a realistic online store database.",
+    "outcomes": [
+      "Write joins, aggregates and subqueries",
+      "Design normalised schemas with keys and constraints",
+      "Read a query plan and add the right index",
+      "Use Supabase and Postgres in a real project"
+    ],
+    "syllabus": [
+      "Selecting and filtering data",
+      "Joins and aggregates",
+      "Designing tables and relationships",
+      "Indexes and performance",
+      "Postgres with Supabase"
+    ]
+  },
+  {
+    "slug": "product-management-fundamentals",
+    "title": "Product Management Fundamentals",
+    "category": "Business",
+    "level": "Intermediate",
+    "duration_weeks": 8,
+    "price": 11999,
+    "instructor": "Arjun Nair",
+    "rating": 4.8,
+    "learners": 1330,
+    "summary": "Learn to find the right problem, prioritise, and ship with a team.",
+    "description": "A practical course for aspiring PMs and engineers moving into product. You will write a product brief and defend it in a mock review.",
+    "outcomes": [
+      "Frame problems and write a clear product brief",
+      "Prioritise with a method you can explain",
+      "Work with engineers and designers day to day",
+      "Define success metrics and read the results"
+    ],
+    "syllabus": [
+      "The product role",
+      "Discovery and problem framing",
+      "Prioritisation",
+      "Writing specs and briefs",
+      "Working with teams",
+      "Metrics and iteration"
+    ]
+  },
+  {
+    "slug": "cloud-fundamentals-aws",
+    "title": "Cloud Fundamentals on AWS",
+    "category": "Technology",
+    "level": "Beginner",
+    "duration_weeks": 6,
+    "price": 7999,
+    "instructor": "Rohit Verma",
+    "rating": 4.6,
+    "learners": 960,
+    "summary": "Understand core cloud services and launch your first scalable app on AWS.",
+    "description": "A hands-on introduction to compute, storage, networking and cost control. You will deploy, break and fix a small application along the way.",
+    "outcomes": [
+      "Explain how core AWS services fit together",
+      "Launch and secure a web app on EC2 and S3",
+      "Set up monitoring and billing alerts",
+      "Prepare for the AWS Cloud Practitioner exam"
+    ],
+    "syllabus": [
+      "Cloud concepts and the AWS console",
+      "Compute with EC2",
+      "Storage with S3",
+      "Networking and security basics",
+      "Monitoring and cost control",
+      "Exam preparation"
+    ]
+  },
+  {
+    "slug": "brand-identity-design",
+    "title": "Brand Identity Design",
+    "category": "Design",
+    "level": "Intermediate",
+    "duration_weeks": 6,
+    "price": 7499,
+    "instructor": "Dev Malhotra",
+    "rating": 4.7,
+    "learners": 890,
+    "summary": "Create a logo system, palette and brand guide for a real small business.",
+    "description": "Work through the full identity process, from positioning to a finished guideline document. Each learner works with a partner business brief.",
+    "outcomes": [
+      "Define brand positioning in a short brief",
+      "Design a flexible logo system",
+      "Choose type and colour that hold together",
+      "Package a brand guide for handoff"
+    ],
+    "syllabus": [
+      "Positioning and research",
+      "Sketching and logo concepts",
+      "Colour and typography",
+      "Applications and mockups",
+      "Brand guidelines"
+    ]
+  },
+  {
+    "slug": "prototyping-and-motion-in-figma",
+    "title": "Prototyping & Motion in Figma",
+    "category": "Design",
+    "level": "Intermediate",
+    "duration_weeks": 4,
+    "price": 5499,
+    "instructor": "Sneha Kulkarni",
+    "rating": 4.6,
+    "learners": 640,
+    "summary": "Build interactive prototypes with components, variables and smart animate.",
+    "description": "Go beyond static screens. You will build a mobile app prototype that feels real enough to test with users.",
+    "outcomes": [
+      "Build reusable components with variants",
+      "Use variables for themes and states",
+      "Animate transitions with purpose",
+      "Share prototypes for testing and handoff"
+    ],
+    "syllabus": [
+      "Components and variants",
+      "Variables and modes",
+      "Interactions and smart animate",
+      "Micro-interactions",
+      "Handoff to developers"
+    ]
+  },
+  {
+    "slug": "financial-modeling-for-startups",
+    "title": "Financial Modeling for Startups",
+    "category": "Business",
+    "level": "Advanced",
+    "duration_weeks": 6,
+    "price": 9499,
+    "instructor": "Lakshmi Pillai",
+    "rating": 4.5,
+    "learners": 520,
+    "summary": "Build a three-statement model and a fundraising scenario in a spreadsheet.",
+    "description": "For founders and analysts who need numbers they can defend. You will build a model from scratch and stress-test it.",
+    "outcomes": [
+      "Build revenue and cost projections from assumptions",
+      "Link income, balance sheet and cash flow",
+      "Model runway and dilution scenarios",
+      "Present a model to an investor"
+    ],
+    "syllabus": [
+      "Assumptions and drivers",
+      "Revenue and cost build",
+      "Three-statement linking",
+      "Runway and scenarios",
+      "Fundraising and dilution",
+      "Presenting your model"
+    ]
+  }
+]
